@@ -6,9 +6,7 @@
 module.exports = function getUnique(arr) {
   const exists = {};
   return arr.filter(function (val) {
-    if (exists[val]) {
-      return false;
-    } else {
+    if (!exists[val]) {
       exists[val] = true;
       return true;
     }
