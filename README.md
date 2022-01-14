@@ -72,6 +72,19 @@ const arr = getUnique(['one', 'two', 'two', 'three']); //'one', 'two', 'three'
 For details see documentation below.
 
 ## 📘 Documentation
+### getunique()
+Filter array for unqiue primitive data values
+
+| Name | Type | Default | Description |
+| ---- | ---- | ------- | ----------- |
+| arr | `array` |  | Array of JS primitives (see https://developer.mozilla.org/en-US/docs/Glossary/Primitive) |
+
+#### Returns
+| Type | Description |
+| ---- | ----------- |
+| `array` | Array of unique values |
+
+<sub>**Source:** [src/index.js:1](https://github.com/danielcobo/getUnique/blob/master/src/index.js?plain=1#L1)</sub>
 
 ## 🆘 Troubleshooting
 
